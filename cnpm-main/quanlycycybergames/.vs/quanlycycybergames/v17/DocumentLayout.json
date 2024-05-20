@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\congnghephanmem\\quanlycycybergames\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE99D050-4859-4443-B4EB-7FCD70EA70FB}|quanlycycybergames\\quanlycycybergames.csproj|d:\\congnghephanmem\\quanlycycybergames\\quanlycycybergames\\areas\\admin\\controllers\\khoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE99D050-4859-4443-B4EB-7FCD70EA70FB}|quanlycycybergames\\quanlycycybergames.csproj|solutionrelative:quanlycycybergames\\areas\\admin\\controllers\\khoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 335,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KhosController.cs",
+              "DocumentMoniker": "D:\\congnghephanmem\\quanlycycybergames\\quanlycycybergames\\Areas\\Admin\\Controllers\\KhosController.cs",
+              "RelativeDocumentMoniker": "quanlycycybergames\\Areas\\Admin\\Controllers\\KhosController.cs",
+              "ToolTip": "D:\\congnghephanmem\\quanlycycybergames\\quanlycycybergames\\Areas\\Admin\\Controllers\\KhosController.cs",
+              "RelativeToolTip": "quanlycycybergames\\Areas\\Admin\\Controllers\\KhosController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAuwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T00:32:54.38Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
