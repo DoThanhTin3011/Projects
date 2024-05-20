@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/tailwind.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/renponsive.css">
+    <link rel="icon" href="/img/garena__icon.png" type="image/png">
+    <title>Garena</title>
+</head>
+
+<body>
+
+        <div class="grid wide">
+            <div class="header row lg:my-4 ">
+                <div class="header__logo col c-4 l-5 sm:m-auto sm:py-3 sm:ml-none">
+                    <a href=""  class="hedaer__logo-img lg:block ">
+                        <img src="./img/logo.png" alt="logo" >
+                    </a>
+                </div>
+                <div class="header__nav col c-0 m-0 l-7 ">
+                        <ul class="header__nav-list lg:flex lg:justify-around lg:text-sm lg:leading-8">
+                            <li class="header__nav-item hover:text-primary-5"><a href="#">Home</a></li>
+                            <li class="header__nav-item hover:text-primary-5 header__nav-item--has-box lg:relative lg:z-10">
+                                <a href="#">Game</a>
+                                <i class="fas fa-angle-down"></i>
+                                <!-- box game -->
+                                <div class="header__game absolute lg:bg-white lg:w-363 lg:top-12 lg:-right-48 lg:hidden">
+                                    <div class="header__game--box p-4 ">
+                                        <span class="mb-1 block text-primary-1">Game máy tính</span>
+                                            <div class="header__game--box-img flex ">
+                                            <a href="#" class="mr-3">
+                                                <img src="./img/game-mt-1.jpg" width="220px"  alt="" style="min-height: 80px;" class="border-2 hover:border-primary-5">
+                                            </a>
+                                            <a href="#" class="mr-3">
+                                                <img src="./img/game-mt-2.jpg" width="220px"  alt="" style="min-height: 80px;" class="border-2 hover:border-primary-5">
+                                                
+                                            </a>
+                                            </div>
+                                    </div>
+                                    <div class="header__game--box pb-4 mx-4">
+                                        <span class="mb-1 block text-primary-1">Game điện thoại</span>
+                                            <div class="header__game--box-img flex ">
+                                            <a href="#" class="mr-3">
+                                                <img src="./img/game-mb-1.jpg" width="220px" alt="" style="min-height: 80px;" class="border-2 hover:border-primary-5">
+                                            </a>
+                                            <a href="#" class="mr-3">
+                                                <img src="./img/game-mb-2.jpg" width="220px" alt="" style="min-height: 80px;" class="border-2 hover:border-primary-5">
+                                                
+                                            </a>
+                                            <a href="#" class="mr-3">
+                                                <img src="./img/game-mb-3.jpg" width="220px" alt="" style="min-height: 80px;" class="border-2 hover:border-primary-5">
+                                                
+                                            </a>
+                                            </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__nav-item header__nav-item--has-pc hover:text-primary-5 relative z-10">
+                                <a href="#">Nền tảng</a>
+                                <i class="header__nav-icon fas fa-angle-down"></i>
+                                <div class="header__nav-box absolute w-96 top-12 right-20 p-4 bg-white hidden">
+                                    <img src="./img/pc.png" alt="" class="px-9 mb-2">
+                                    <h2 class="text-black text-2xl font-bold text-center hover:text-primary-5 cursor-pointer">Garena PC</h2>
+                                    <span class="text-primary-1 text-center block">Windowns</span>
+                                </div>
+                            </li>
+                            <li class="header__nav-item hover:text-primary-5"><a href="#">Hỗ trợ</a></li>
+                            <li class="header__nav-item hover:text-primary-5"><a href="#">Tài khoản</a></li>
+                            <li class="header__nav-item hover:text-primary-5"><a href="#">Tuyển dụng</a></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <section class="banner">
+            <section id="slick-slider1" class="">
+                    <div class="list-slider absolute">
+                        <div class="slide-item  game__img-1 bg-no-repeat bg-center bg-cover ">
+                        <div class="slide-item__text text-white text-center relative top-28r sm:top-96 ">
+                            <h2 class="text-6xl font-bold mb-2 sm:text-2xl ">Garena eSports</h2>
+                            <h3 class="text-xl text-gray-300 sm:text-sm md:text-2xl">Đấu trường danh vọng <br> 
+                                Điểm đến của đam mê , khởi đầu của huyền thoại
+                            </h3>
+                        </div>
+                        </div>
+                        <div class="slide-item  game__img-2 bg-no-repeat bg-center bg-cover sm:bg-right " style="display: flex; justify-content: center;">
+                           <div class="contents down_lg::relative">
+                            <div class="slide-item--left text-white my-auto mx-24 sm:m-0 sm:pb-7 down_lg:absolute down_lg:top-3/4  ">
+                                <h2 class="text-6xl font-bold mb-6 down_md:hidden  sm:hidden md:hidden">Garena <br> Platforms</h2>
+                                <h2 class="slide-item--left-text-has-mb text-2xl font-bold mb-6 hidden sm:block md:block down_md:block md:text-6xl">Garena Platforms</h2>
+
+                                <h3 class="text-2xl text-gray-300 mb-6 max-w-135 sm:max-w-none md:text-2xl down_md:text-base">Nền tảng game đa dụng - Kết nối mọi game thủ
+                                </h3>
+                                <div class="slide-item--icon border-btn inline-block down_lg:hidden">
+                                    <a href="#" class="flex justify-evenly items-center px-3">
+                                        <img src="./img/icon-pc.png" width="30px" height="21px" alt="">
+                                        <h3 class="text-xl text-primary-5 font-bold ">Garena PC</h3>
+                                    </a>
+                                </div>
+                                </div>
+                                <div class="slede-item--right block my-auto sm:m-0 down_lg:hidden">
+                                    <img src="./img/grn-2.png" alt="img-grn-2">
+                                </div>
+                           </div>
+                        </div>
+                        <div class="slide-item game__img-3 bg-no-repeat bg-center bg-cover down_lg:relative">
+                                <div class="slide-item--left text-white pt-16 my-auto mx-64 down_lg:mx-0 down_lg::mt-80 down_lg:pt-0 down_lg:text-center down_lg:absolute down_lg:top-3/4 down_md:top-2/3">
+                                <img src="./img/logo-game-1.png" alt="" class="banner__icon">
+                                <h2 class="text-6xl font-bold my-6 down_lg:hidden">Cái Thế<br> Tranh Hùng</h2>
+                                <h2 class="slide-item--left-text-has-mb text-2xl font-bold mb-4 hidden down_lg:block md:text-6xl">Cái Thế Tranh Hùng</h2>
+                                <h3 class="text-2xl text-gray-300 my-6 max-w-lg sm:text-sm down_lg:max-w-none down_lg:px-5 md:text-2xl down_md:text-base" >Trở thành Chủ Công Tam Quốc trong cực phẩm game đấu tướng chiến thuật mobile đầu tiên của Garena!
+                                </h3>
+                                <div class="slide-item--icon border-btn inline-block down_lg:hidden" style="background-color: #020f1d;">
+                                    <a href="#" class="flex justify-evenly items-center">
+                                        <img src="./img/icon-game.png" width="30px" height="21px" alt="" class="mx-4">
+                                        <h3 class="text-2xl text-primary-5 font-bold mr-4">Chơi ngay</h3>
+                                    </a>
+                                </div>
+                                </div>
+                        </div>
+                        <div class="slide-item game__img-4 bg-no-repeat bg-center bg-cover flex justify-center down_lg:relative" >
+                                <div class="slide-item--left text-white text-center mt-24 down_lg:absolute sm:top-1/2 md:top-2/3 lg:top-0 ">
+                                <img src="./img/logo-game-2.png" width="180px" height="130px" alt="" class="banner__icon m-auto">
+                                <h2 class="text-6xl font-bold my-6 sm:text-2xl sm:my-4 md:text-6xl down_lg:my-2
+                                ">Arena of Valor</h2>
+                                <h3 class="text-2xl text-gray-200 my-6 py-5 px-282 sm:text-sm sm:my-0 down_lg:px-5 down_lg:py-0 " >Cùng đồng đội thách đầu hàng triệu người chơi,khiến thế giời phải biết đến tên của bạn!
+                                </h3>
+                                <div class="slide-item--icon border-btn inline-block down_lg:hidden" style="background-color: #020f1d;">
+                                    <a href="#" class="flex justify-evenly items-center">
+                                        <img src="./img/icon-game.png" width="30px" height="21px" alt="" class="mx-4">
+                                        <h3 class="text-2xl text-primary-5 font-bold mr-4">Chơi ngay</h3>
+                                    </a>
+                                </div>
+                                </div>
+                        </div>
+                        <div class="slide-item game__img-5 bg-no-repeat bg-center bg-cover items-center down_lg:relative " style="justify-content: right;">
+                            <div class="slide-item--left text-white px-64 sm:px-0 down_lg:text-center down_lg:px-0 " >
+                            <img src="./img/logo-game-3.png" width="334px" height="61px" alt="" class="banner__icon">
+                                <div class="down_lg:top-2/3 down_lg:absolute">
+                                    <h2 class="text-6xl font-bold my-4 sm:text-2xl sm:my-4">FIFA Online 4</h2>
+                                    <h3 class="text-2xl text-gray-300 my-6 max-w-md down_lg:max-w-none sm:text-sm sm:my-0 sm:px-5 md:px-32 lg:px-0" >Thỏa giấc mơ sân cỏ, sống trọn đam mê bóng đá với engine thế hệ mới và đẳng cấp vượt trội
+                                    </h3>
+                                </div>
+                            <div class="slide-item--icon border-btn inline-block down_lg:hidden" style="background-color: #020f1d; ">
+                                <a href="#" class="flex justify-evenly items-center">
+                                    <img src="./img/icon-game.png" width="30px" height="21px" alt="" class="mx-4">
+                                    <h3 class="text-2xl text-primary-5 font-bold mr-4">Chơi ngay</h3>
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="slide-item game__img-6 bg-no-repeat bg-center bg-cover flex down_lg:relative">
+                            <div class="slide-item--left text-white pt-48 my-auto mx-64 down_lg:mx-0 down_lg:text-center down_lg:pt-0 down_lg:absolute down_lg:top-2/3">
+                            <img src="./img/logo-game-4.png" alt="" class="banner__icon">
+                            <h2 class="text-6xl font-bold my-4 sm:text-2xl sm:my-4">Blade and soul</h2>
+                            <h3 class="text-2xl text-gray-300 my-6 max-w-lg down_lg:max-w-none sm:text-sm sm:my-0 sm:px-5 md:px-24 lg:px-0">Tu luyện tuyệt kỹ, hoàn thiện công phu võ học,khám phá thế giới Blade & Soul!
+                            </h3>
+                            <div class="slide-item--icon border-btn inline-block down_lg:hidden" style="background-color: #020f1d;">
+                                <a href="#" class="flex justify-evenly items-center">
+                                    <img src="./img/icon-game.png" width="30px" height="21px" alt="" class="mx-4">
+                                    <h3 class="text-2xl text-primary-5 font-bold mr-4">Chơi ngay</h3>
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="slide-item game__img-7 bg-no-repeat bg-center bg-cover flex items-center down_lg:relative" style="justify-content: right;">
+                            <div class="slide-item--left text-white px-64 sm:px-0 down_lg:text-center down_lg:px-0 down_lg:absolute down_lg:top-2/3" >
+                            <img src="./img/logo-game-5.png" width="334px" height="61px" alt="" class="banner__icon">
+                           <div class="md:mx-40 lg:mx-0">
+                            <h2 class="text-6xl font-bold my-4 sm:text-2xl sm:my-4">Free Fire</h2>
+                            <h3 class="text-xl text-gray-300 my-6 sm:max-w-none sm:text-sm sm:my-0 sm:px-5" style="max-width: 450px;">Sống dai thành huyền thoại.</h3>
+                            <h3 class="text-xl text-gray-300 my-6 sm:max-w-none sm:text-sm sm:my-0 sm:px-5">
+                                Game bắn súng sinh tồn trên điện thoại hấp dẫn
+                            </h3>
+                           </div>
+                            <div class="slide-item--icon border-btn inline-block down_lg:hidden" style="background-color: #020f1d;">
+                                <a href="#" class="flex justify-evenly items-center">
+                                    <img src="./img/icon-game.png" width="30px" height="21px" alt="" class="mx-4">
+                                    <h3 class="text-2xl text-primary-5 font-bold mr-4">Chơi ngay</h3>
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+            </section>
+        </section>
+        <section class="card">
+            <div class="container py-16 sm:py-10 bg-bgprm-5">
+                <div class="card__header text-center text-5xl font-bold pb-16 sm:text-xl sm:pb-10">
+                    <h2>Về chúng tôi</h2>
+                </div>
+                <div class="card-list row justify-center">
+                    <div class="card-box col c-12 l-3 text-center flex-col py-11 mx-6 items-center max-w-sm  bg-cover bg-no-repeat  down_lg:py-0 down_lg:my-4 down_lg:flex down_lg:justify-center">
+                        <div class="card-box__icon inline-block lg:mb-0 md:mb-20 sm:mb-5">
+                            <img src="./img/icon-box-1.png" width="179px" height="109px" alt="" class="sm:w-36 sm:h-20">
+                        </div>
+                        <div class="card-box__text my-5 text-primary-10 font-bold md:text-5xl sm:text-3xl lg:text-2xl">
+                            <h3>Thể Thao Điện Tử</h3>
+                        </div>
+                        <div class="card-box__desc px-6 text-sm text-center text-primary-1 md:text-2xl md:px-20 lg:text-base lg:px-6 sm:mx-6 sm:pb-7">
+                            Garena là nhà tổ chức các giải đấu và sự kiện Thể Thao Điện Tử lớn trong khu vực Đông Nam Á, nhằm mục tiêu phát triển cộng đồng game thủ
+                        </div>
+                    </div>
+                    <div class="card-box col c-12 l-3 text-center flex-col py-11 mx-6 items-center max-w-sm  bg-cover bg-no-repeat down_lg:py-0 down_lg:my-8 down_lg:flex down_lg:justify-center">
+                        <div class="card-box__icon inline-block lg:mb-0 md:mb-20 sm:mb-5">
+                            <img src="./img/icon-box-2.png" width="179px" height="109px" alt="" class="sm:w-36 sm:h-20">
+                        </div>
+                        <div class="card-box__text my-5 text-primary-10 font-bold md:text-5xl sm:text-3xl lg:text-2xl">
+                            <h3>Game</h3>
+                        </div>
+                        <div class="card-box__desc px-6 text-sm text-center text-primary-1 md:text-2xl md:px-20 lg:text-base lg:px-6 sm:mx-6 sm:pb-7">
+                            Garena là nhà phát hành game hàng đầu Đông Nam Á. Với nền tảng chúng tôi cung cấp, người dùng có thể trải nghiệm những tựa game online lôi cuốn, hấp dẫn nhất trên cả PC và mobile
+                        </div>
+                    </div>
+                    <div class="card-box col c-12 l-3 text-center flex-col py-11 mx-6 items-center max-w-sm  bg-cover bg-no-repeat down_lg:py-0 down_lg:my-8 down_lg:flex down_lg:justify-center">
+                        <div class="card-box__icon inline-block lg:mb-0 md:mb-20 sm:mb-5">
+                            <img src="./img/icon-box-3.png" width="179px" height="109px" alt="" class="sm:w-36 sm:h-20">
+                        </div>
+                        <div class="card-box__text my-5 text-primary-10 font-bold md:text-5xl sm:text-3xl lg:text-2xl">
+                            <h3>Cộng đồng</h3>
+                        </div>
+                        <div class="card-box__desc px-6 text-sm text-center text-primary-1 md:text-2xl md:px-20 lg:text-base lg:px-6 sm:mx-6 sm:pb-7">
+                            Người chơi có thể kết nối với nhau qua nền tảng Garena, cập nhật thông tin mới nhất từ cộng đồng
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="slick-slider-2 hidden lg:block">
+            <div class="header">
+                <h2 class="text-center font-bold text-3xl p-8">Game mới nhất</h2>
+            </div>
+            <div class="slider-2 ">
+                <div class="slide-item relative down_lg:relative">
+                    <div class="slide__img">
+                        <img src="./img/grn-3-slider-2.jpg" alt="">
+                    </div>
+                    <div class="slide-item--left absolute top-1/2 px-10 text-white pt-10 my-auto down_lg:mx-0 down_lg::mt-80 down_lg:pt-0 down_lg:text-center down_lg:absolute down_lg:top-3/4">
+                    <h2 class="text-3xl font-bold my-5 down_lg:hidden">Cái Thế Tranh Hùng</h2>
+                    <h3 class="text-lg text-gray-200 max-w-xl my-6 sm:text-sm down_lg:max-w-none down_lg:px-5 " >Trở thành Chủ Công Tam Quốc trong cực phẩm game đấu tướng chiến thuật mobile đầu tiên của Garena!
+                    </h3>
+                    <div class="slide-iteam--icon down__mb relative bg-no-repeat bg-contain bg-center">
+                       
+                    </div>
+                    </div>
+                </div>
+            <div class="slide-item relative  flex justify-center down_lg:relative" >
+                <div class="slide__img">
+                    <img src="./img/grn-4-slider-2.jpg" alt="">
+                </div>
+                <div class="slide-item--left absolute top-1/2 px-10 text-white pt-10 my-auto down_lg:mx-0 down_lg::mt-80 down_lg:pt-0 down_lg:text-center down_lg:absolute down_lg:top-3/4">
+                    <h2 class="text-3xl font-bold my-5 down_lg:hidden">Arena of Valor</h2>
+                    <h3 class="text-lg text-gray-200 max-w-xl my-6 sm:text-sm down_lg:max-w-none down_lg:px-5 " >Cùng đồng đội thách đấu hàng triệu người chơi,
+                        khiến thế giới phải biết đến tên của bạn!
+                    </h3>
+                    <div class="slide-iteam--icon down__mb relative bg-no-repeat bg-contain bg-center">
+                       
+                    </div>
+                    </div>
+            </div>
+            <div class="slide-item relative items-center down_lg:relative ">
+                <div class="slide__img">
+                    <img src="./img/grn-5-slider-2.jpg" alt="">
+                </div>
+                <div class="slide-item--left absolute top-1/2 px-10 text-white pt-10 my-auto down_lg:mx-0 down_lg::mt-80 down_lg:pt-0 down_lg:text-center down_lg:absolute down_lg:top-3/4">
+                    <h2 class="text-3xl font-bold my-5 down_lg:hidden">
+                        FIFA Online 4</h2>
+                    <h3 class="text-lg text-gray-200 max-w-xl my-6 sm:text-sm down_lg:max-w-none down_lg:px-5 " >Thỏa giấc mơ sân cỏ, sống trọn đam mê bóng đá
+                        với engine thế hệ mới và đẳng cấp vượt trội                        
+                    </h3>
+                    <div class="slide-iteam--icon down__pc relative bg-no-repeat bg-contain bg-center">
+                       
+                    </div>
+                    </div>
+            </div>
+            <div class="slide-item relative flex down_lg:relative">
+                <div class="slide__img">
+                    <img src="./img/grn-6-slider-2.jpg" alt="">
+                </div>
+                <div class="slide-item--left absolute top-1/2 px-10 text-white pt-10 my-auto down_lg:mx-0 down_lg::mt-80 down_lg:pt-0 down_lg:text-center down_lg:absolute down_lg:top-3/4">
+                    <h2 class="text-3xl font-bold my-5 down_lg:hidden">
+                        Blade and soul</h2>
+                    <h3 class="text-lg text-gray-200 max-w-xl my-6 sm:text-sm down_lg:max-w-none down_lg:px-5 " >Tu luyện tuyệt kỹ, hoàn thiện công phu võ học,
+                        khám phá thế giới Blade & Soul!                      
+                    </h3>
+                    <div class="slide-iteam--icon down__pc relative bg-no-repeat bg-contain bg-center">
+                       
+                    </div>
+                    </div>
+            </div>
+            <div class="slide-item relative flex down_lg:relative">
+                <div class="slide__img">
+                    <img src="./img/grn-7-slider-2.jpg" alt="">
+                </div>
+                <div class="slide-item--left absolute top-1/2 px-10 text-white pt-10 my-auto down_lg:mx-0 down_lg::mt-80 down_lg:pt-0 down_lg:text-center down_lg:absolute down_lg:top-3/4">
+                    <h2 class="text-3xl font-bold my-5 down_lg:hidden">
+                        Free Fire</h2>
+                    <h3 class="text-lg text-gray-200 max-w-xl my-6 sm:text-sm down_lg:max-w-none down_lg:px-5 " >Sống dai thành huyền thoại.
+                        Game bắn súng sinh tồn trên điện thoại hấp dẫn                    
+                    </h3>
+                    <div class="slide-iteam--icon down__mb relative bg-no-repeat bg-contain bg-center">
+                       
+                    </div>
+                    </div>
+            </div>
+            
+            </div>
+        </section>
+        <section class="card__deck flex justify-center items-center down_md:hidden">
+            <div class="bg-img"></div>
+            <div class="card__content absolute">
+                <div class="card__container relative flex justify-center items-center">
+                    <div class="top-desk">
+                        <div class="card__box--deck unactive absolute w-full h-full rounded-xl overflow-hidden cursor-pointer" style="--i: -1">
+                            <img src="./img/ahri.jpg" alt="">
+                        <div class="top-desk__content">
+                            <div class="top-desk__name">
+                                Ahri
+                            </div>
+                            <div class="top-desk__desc text-white text-center overflow-hidden">
+                                Ahri is a mysterious fox-like vastaya in search of her place in the world. Having become a somewhat reluctant and empathetic predator since entering mortal society, she prefers to manipulate her prey's emotions before partaking of their life essence life essence—receiving flashes of memory and insight from each soul she consumes.
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card__box--deck unactive  absolute w-full h-full rounded-xl overflow-hidden " style="--i: 1">
+                            <img src="./img/AurelionSol_0.jpg" alt="">
+                        <div class="top-desk__content">
+                            <div class="top-desk__name">
+                                Aurelion Sol
+                            </div>
+                            <div class="top-desk__desc text-white text-center overflow-hidden">
+                                Aurelion Sol once graced the vast emptiness of the celestial realm with wonders of his own devising, but was tricked by the Aspects of Targon Crest icon.png Targon into revealing the secrets of a sun that he himself created. His awesome power was channeled into immortal god-warriors to protect the apparently insignificant world of Runeterra—now, desiring a return to his mastery of the cosmos, Aurelion Sol will LoR Spell Slow Indicator.png drag the very stars from the sky, if he must, in order to regain his freedom.
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card__box--deck unactive  absolute w-full h-full rounded-xl overflow-hidden " style="--i: 0">
+                            <img src="./img/lux.jpg" alt="">
+                        <div class="top-desk__content">
+                            <div class="top-desk__name">
+                               Lux
+                            </div>
+                            <div class="top-desk__desc text-white text-center overflow-hidden">
+                                Luxanna Crownguard hails from Demacia Crest Demacia, an insular realm where magical abilities are viewed with fear and suspicion. Able to bend light to her will, she grew up dreading discovery and exile, and was forced to keep her power secret in order to preserve her family's noble status. Nonetheless, Lux's optimism and resilience have led her to embrace her unique talents, and she now seeks to bring greater tolerance and understanding to her homeland.
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card__box--deck unactive  absolute w-full h-full rounded-xl overflow-hidden hidden lg:block  " style="--i: -2">
+                            <img src="./img/zed.png" alt="">
+                        <div class="top-desk__content">
+                            <div class="top-desk__name">
+                               Zed
+                            </div>
+                            <div class="top-desk__desc text-white text-center overflow-hidden">
+                                Zed is the leader of the The Order of The Shadows Crest.jpg Order of Shadow, an organization he created with the intent of militarizing Ionia Crest magical and martial traditions to drive out Noxian invaders. During the war, desperation led him to unlock the secret shadow form—a malevolent spirit magic as dangerous and corrupting as it is powerful. Zed has mastered all of these forbidden techniques to destroy anything he sees as a threat to his nation, or his new order.
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card__box--deck unactive  absolute w-full h-full rounded-xl overflow-hidden hidden lg:block " style="--i: 2">
+                            <img src="./img/kai-sa-league-of-legends-thumb-1500x844.jpg" alt="">
+                        <div class="top-desk__content">
+                            <div class="top-desk__name">
+                            Kai'Sa
+                            </div>
+                            <div class="top-desk__desc text-white text-center overflow-hidden">
+                                Kai'Sa managed to survive through sheer tenacity and strength of will. Her experiences have made her a deadly hunter and, to some, the harbinger of a future they would rather not live to see. Having entered into an uneasy symbiosis with a living Void carapace, the time will soon come when she must decide whether to forgive those mortals who would call her a monster, and defeat the coming darkness together... or simply to forget, as the Void consumes the world that left her behind.
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="bottom-desk flex justify-center">
+                        <div class="top-side"></div>
+                        <div class="thickness absolute rounded-lg"></div>
+                        <div class="shadow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="basic">
+            <div style="background-image: url('./img/bg-basic.jpg'); background-size: cover;">
+                <div class="basic__header text-center text-5xl font-bold py-16 sm:text-xl sm:py-7">
+                    <h2>Nền tảng Garena</h2>
+                </div>
+                <div class="row basic__box down_lg:flex-col-reverse">
+                    <div class="basic__box-left col l-6">
+                        <img src="./img/basic-img.jpg" alt="">
+                    </div>
+                    <div class="basic__box-right col l-6 px-36 m-auto text-left down_lg:p-0 md:text-center lg:text-left down_lg:px-0 ">
+                        <h2 class="text-4xl basic__box-header font-bold pb-10 sm:text-lg down_lg:relative down_lg:text-center ">Garena PC</h2>
+                        <div class="basic__box-decs text-sm text-primary-1 max-w-md mb-6 md:text-2xl down_lg:max-w-none down_lg:px-10 lg:text-base">
+                            <p>Nền tảng kết nối game thủ, giúp bạn sát cánh bên đồng đội để khám phá, chinh phục thử thách, và hòa mình vào những thế giới game độc đáo chỉ có trên Garena.</p>
+                        </div>
+                        <div class="basic__box-link mb-6 text-primary-10 flex items-center down_lg:hidden">
+                            <a href="#" class="text-2xl font-bold mr-2">Xem Thêm</a>
+                            <i class="fas fa-chevron-right border-btn text-xs" style="padding: 2px;"></i>
+                        </div>
+                        <div class="basic__box-link basic__box-link--has-mobile mb-6 text-primary-10 items-center border-2 border-solid border-primary-5 rounded-full py-1 px-3 hidden down_lg:inline-block">
+                            <a href="#" class="sm:text-sm font-bold mr-2 md:text-2xl">Xem Thêm</a>
+                        </div>
+                        <div class="basic__box-icon w-24 h-24 mb-5 flex flex-col items-center down_lg:hidden">
+                            <a href="" class="bg-primary-10 rounded-full flex justify-center items-center p-7 mb-4">
+                                <i class="fas fa-gamepad text-4xl text-white "></i>
+                            </a>
+                            <div class="basi__box-text">
+                                <p class="text-primary-10">Game</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="basic__box-icon my-5 text-center mx-auto hidden down_lg:block ">
+                    <a href="" class="bg-primary-10 rounded-full  inline-block p-3 mb-2">
+                        <i class="fas fa-gamepad text-xl text-white "></i>
+                    </a>
+                    <div class="basi__box-text pb-4">
+                        <p class="text-primary-10">Game</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="career">
+            <div class="row h-250 px-5 down_lg:justify-center down_lg:h-full">
+                <div class="career__left wide col l-6 px-16 m-auto border-slate-300 border-solid down_lg:text-center down_lg:m-0">
+                    <h2 class="career__left__header text-5xl font-bold py-10 sm:text-xl sm:py-7 ">Sự nghiệp tại Garena</h2>
+                    <div class="career__left-decs text-primary-1 mb-6 md:text-2xl down_lg:max-w-none md:px-16 lg:px-0 lg:text-base lg:max-w-none">
+                        <p>Chúng tôi muốn mang lại cho bạn cơ sở nền tảng để phát triển và hoàn thiện bản thân, thể hiện khả năng của mình giúp cộng đồng ngày một phát triển.</p>
+                    </div>
+                    <div class="carrer__left-btn btn hover:bg-primary-5 down_lg:hidden">
+                        <button class="text-white text-2xl font-bold cursor-pointer">Nộp hồ sơ ngay</button>
+                    </div>
+                    <div class="carrer__left-btn carrer__left-btn--has-mobile text-primary-10 border-2 border-solid border-primary-5 rounded-full py-1 px-3 hidden down_lg:inline-block down_lg:mb-10">
+                        <button class="text-primary-10 sm:text-sm font-bold cursor-pointer md:text-2xl">Nộp hồ sơ ngay</button>
+                    </div>
+                </div>
+                <div class="career__right col l-6 bg-cover bg-no-repeat ">
+                    <div class="career__right-text flex justify-center relative top-1/4 down_lg:hidden">
+                        <img src="./img/career-img-text.png" width="80%" alt="" class="sm:w-8/12">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact pb-16 down_lg:hidden">
+            <div class="row border-t-2 border-solid border-gray-400">
+                    <div class="contact__left col l-6 text-primary-1 my-16">
+                        <div class="contact__left-img inline-block mb-8 cursor-pointer">
+                            <img src="./img/logo.png" width="167px" height="48px" alt="">
+                        </div>
+                        <div class="contact__left-text col l-6 leading-7">
+                            <p class="w-250">
+                                CÔNG TY CỔ PHẦN GIẢI TRÍ VÀ THỂ THAO ĐIỆN TỬ VIỆT NAM
+                                Giấy CNĐKKD số 0105301438, cấp lần đầu ngày 10/05/2011
+                                <br>
+                                Cơ quan cấp: Phòng Đăng ký kinh doanh- Sở Kế hoạch và đầu tư TP Hà Nội
+                                Địa chỉ trụ sở chính: Tầng 29, tòa nhà Trung tâm Lotte Hà Nội, số 54, đường Liễu Giai,Phường Cống Vị, Quận Ba Đình, Thành phố Hà Nội, Việt Nam.
+                                <br>
+                                Điện thoại: 024 73053939.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact__right col l-6 my-16">
+                        <div class="contact__right-box flex justify-around">
+                            <div class="contact__right-list">
+                                <span class="mb-6 block text-primary-1">Company</span>
+                                    <div class="contact__right-link flex flex-col">
+                                        <a href="#">Tuyển dụng</a>
+                                        <a href="#">Giới thiệu</a>
+                                    </div>
+                            </div>
+                            <div class="contact__right-list">
+                                <span class="mb-6 block text-primary-1">Nền tảng</span>
+                                <a href="#">Garena PC</a>
+                            </div>
+                            <div class="contact__right-list">
+                                <span class="mb-6 block text-primary-1">Dịch vụ</span>
+                                <div class="contact__right-link flex flex-col">
+                                    <a href="#">Hỗ trợ</a>
+                                    <a href="#">Tài khoản</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="row  border-t-2 border-slate-300 border-solid down_lg:flex-col-reverse">
+                <div class="footer__license col l-6">
+                    <div class="footer__license-text flex items-center down_lg:pb-5 md:text-2xl lg:p-3 lg:text-base down_lg:text-center down_lg:block">
+                        <span class="text-primary-1 px-11">Bản quyền thuộc về © Garena Online.</span>
+                    </div>
+                </div>
+                <div class="footer__sp col l-6 ">
+                    <div class="footer__sp-text flex justify-center text-gray-700 down_lg:flex-col-reverse down_lg:items-center">
+                     <div class="down_lg:flex down_lg:mb-2 md:text-2xl lg:text-base">
+                        <a href="#" class="relative separate p-4" style="display: inline-block;">Điều khoản dịch vụ</a>
+                        <a href="#" class=" mx-6 p-4 z-0 down_lg:mx-0 down_lg:my-0" style="display: inline-block;">Chính sách bảo mật</a>
+                     </div>
+                      <div class="footer__sp-list z-10 down_lg:inline-block down_lg:mx-auto down_lg:mt-12 down_lg:mb-3">
+                        <select class="border-b-5 border-2 border-solid text-gray-500 font-serif outline-none down_lg:text-center sm:text-xl sm:px-6 sm:py-2 md:text-2xl md:px-14 md:py-4 lg:p-3 lg:text-lg">
+                          <option class="text-gray-400">ThaiLand</option>
+                          <option selected="selected" class="text-gray-400 ">VietNam</option>
+                          <option class="text-gray-400">Japan</option>
+                          <option class="text-gray-400">Malaysia</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        
+</body>
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./index.js"></script>
+</html>

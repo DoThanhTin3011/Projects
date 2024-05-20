@@ -1,0 +1,509 @@
+                        @media (min-width:1023px) {
+                            .hedaer__logo-img img{
+                                width: 108px;
+                                height: 31px;
+                            }
+                            .game__img-1{
+                                background-image: url(/img/grn-1.jpg);
+                            }
+                            .game__img-2
+                            {
+                                background-image: url(/img/bg-grn-1.jpg);
+                              }
+                            .game__img-3
+                            {
+                            background-image: url(/img/grn-3.jpg);
+                            display: flex !important
+                            }
+                            .game__img-4
+                            {
+                                background-image: url(/img/grn-4.jpg);
+                            }
+                           
+                            .game__img-5
+                            {
+                                background-image: url(/img/grn-5.jpg);
+                                display: flex !important
+                            }
+                            .game__img--slide-5{
+                                background-image: url(/img/grn-5-slider-2.jpg);
+                            }
+                            .game__img-6{
+                                background-image: url(/img/grn-6.jpg);
+                            }
+                            .game__img--slide-6{
+                                background-image: url(/img/grn-6-slider-2.jpg);
+                            }
+                            .game__img-7,
+                            .game__img--slide-7{
+                                background-image: url(/img/grn-7.jpg);
+                                display: flex !important
+                            }
+                            .game__img-1,
+                            .game__img-2,
+                            .game__img-3,
+                            .game__img-4,
+                            .game__img-5,
+                            .game__img-6,
+                            .game__img-7{
+                                min-height: 690px
+                            }
+                          
+                            .slick-slide{
+                                padding: 40px 0px;
+                                transition: all 0.4s ease-in-out;
+                            }
+                            .slider-2.slick-slide img {
+                                width: 810px;
+                                height: 460px;
+                               transition: all 0.4s ease-in-out;
+                            }
+                            .slick-center {
+                                z-index: 10;
+                                transform: scale(1.1);
+                            }
+                            .card-box{
+                                background-image: url(/img/bg-box.png);
+                                height: 430px;
+                            }
+                              
+                            .career__right{
+                                background-image: url(/img/career-img.jpg);
+                            }
+                            .contact__left ,
+                            .career__left,
+                            .basic__box-right{
+                                padding: 0 60px;
+                            }
+                            .basic__box-right{
+                                padding-left: 140px !important
+                            }
+                            .down__pc{
+                                background-image: url(/img/icon-down-pc.png);
+                                width: 46px;
+                                height: 37px;
+                                bottom: 5rem;
+                                left: 114%;
+                            }
+                            .down__mb{
+                                background-image: url(/img/icon-down-mb.png);
+                                width: 30px;
+                                height: 38px;
+                                bottom: 5rem;
+                                left: 114%;
+                            }
+                            .slide-item::after{
+                                content: "";
+                                display: block;
+                                position: absolute;
+                                right: 15% ;
+                                top: 74%;
+                                height: 36px;
+                                border-right: 2px solid #b2b4b6 ;
+                            
+                            }
+                            .slick-slider-2{
+                                padding-bottom: 100px;
+                                
+                            }
+                            .card__deck{
+                                height: 100vh;
+                            }
+                            .bg-img{
+                              background-image: url("/img/bg__card.jpg");
+                              background-position: center;
+                              background-repeat: no-repeat;
+                              background-size: cover;
+                              filter: blur(8px);
+                              -webkit-filter: blur(8px);
+                              width: 100%;
+                              height: 100%;
+                            
+                            }
+                            .card__content{
+                                z-index: 2;
+                            }
+                            .card__container{
+                                margin-top: 300px;
+                            }
+                            .top-desk, .bottom-desk{
+                                position: absolute;
+                                width: 200px;
+                                height: 274px;
+                                perspective: 1000px;
+                            }
+                            .card__box--deck, .bottom-desk .top-desk,
+                            .bottom-desk .shadow{
+                                border: 5px solid #c9aa71;
+                                z-index: 10;
+                                background-color: #060e1f;
+                            }
+                            .card__box--deck::after{
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                content: "";
+                                width: 100%;
+                                height: 100%;
+                                background: url(/img/Saint-League-of-Legends.jpeg) center / cover;
+                                transition: 0.25s;
+                                transition-delay: 0.5s;
+                            
+                            }
+                            .card__box--deck.active{
+                                animation: draw 1s ease-in-out forwards;
+                            }
+                            .card__box--deck.active::after{
+                                opacity: 0;
+                            }
+                            .card__box--deck.unactive{
+                                animation: undraw 1s ease-in-out forwards;
+                            }
+                            @keyframes draw{
+                                0%{
+                                    transform: rotateX(60deg) rotateY(180deg);
+                                }
+                                20%{
+                                    transform: rotateX(60deg) rotateY(180deg) translateY(100px);
+                            
+                                }
+                                100%{
+                                    transform: translateY(-260px) translateX(calc(-310px * var(--i)));
+                                    box-shadow: 0 0 30px #e3b93d62;
+                            
+                                }
+                            }
+                            @keyframes undraw{
+                                0%{
+                                    transform: translateY(-250px) translateX(calc(-250px * var(--i)));
+                                    box-shadow: 0 0 30px #e3b93d62;
+                                }
+                               90%,
+                               100%{
+                                transform: rotateX(60deg) rotateY(180deg);
+                            
+                               }
+                            }
+                            .card__box--deck img{
+                                width: 100%;
+                                height: 60%;
+                                object-fit: cover;
+                                object-position: center;
+                            }
+                            .card__box--deck .top-desk__content{
+                                height: 40%;
+                                padding: 0 15px;
+                            }
+                            .card__box--deck .top-desk__name{
+                                font-size: 24px;
+                                line-height: 1.2;
+                                margin-bottom: 5px;
+                                background: linear-gradient(to right, #ef32d9, #89fffd);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                font-weight: 700;
+                                text-align: center;
+                            }
+                            .top-desk__desc{
+                                font-size: 12px;
+                                display: -webkit-box;
+                                line-height: 1.3;
+                                -webkit-line-clamp: 4;  /* số dòng hiển thị */
+                                -webkit-box-orient: vertical;
+                                text-overflow: ellipsis;
+                            }
+                            .bottom-desk{
+                                pointer-events: none;
+                                z-index: -10;
+                            }
+                            .bottom-desk .top-side{
+                                transform: rotateX(60deg) rotateY(180deg);
+                                background: url(/img/Saint-League-of-Legends.jpeg) center / cover;
+                                width: 100%;
+                                border-radius: 10px;
+                                border: 5px solid #c9aa71;
+                            }
+                            .bottom-desk .thickness{
+                                width: 113%;
+                                height: 60px;
+                                top: 75%;
+                                background-color: #fddda7;
+                            }
+                            .bottom-desk .shadow{
+                                transform: rotateX(60deg) rotateY(180deg);
+                                margin-top: 70px;
+                                z-index: -20;
+                                border: none;
+                                background-color: #a4acdb20;
+                                filter: blur(15px);
+                            }
+                            /* deck of cards */
+                        }
+                    /* Table and pc */
+
+                    /* Mobie và table */
+                   
+                    @media (max-width:1023px) {
+                        .card__deck{
+                            height: 70vh;
+                        }
+                        .bg-img{
+                          background-image: url("/img/bg__card.jpg");
+                          background-position: center;
+                          background-repeat: no-repeat;
+                          background-size: cover;
+                          filter: blur(8px);
+                          -webkit-filter: blur(8px);
+                          width: 100%;
+                          height: 100%;
+                        
+                        }
+                        .card__content{
+                            z-index: 2;
+                        }
+                        .card__container{
+                            margin-top: 300px;
+                        }
+                        .top-desk, .bottom-desk{
+                            position: absolute;
+                            width: 200px;
+                            height: 274px;
+                            perspective: 1000px;
+                        }
+                        .card__box--deck, .bottom-desk .top-desk,
+                        .bottom-desk .shadow{
+                            border: 5px solid #c9aa71;
+                            z-index: 10;
+                            background-color: #060e1f;
+                        }
+                        .card__box--deck::after{
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            content: "";
+                            width: 100%;
+                            height: 100%;
+                            background: url(/img/Saint-League-of-Legends.jpeg) center / cover;
+                            transition: 0.25s;
+                            transition-delay: 0.5s;
+                        
+                        }
+                        .card__box--deck.active{
+                            animation: draw 1s ease-in-out forwards;
+                        }
+                        .card__box--deck.active::after{
+                            opacity: 0;
+                        }
+                        .card__box--deck.unactive{
+                            animation: undraw 1s ease-in-out forwards;
+                        }
+                        @keyframes draw{
+                            0%{
+                                transform: rotateX(60deg) rotateY(180deg);
+                            }
+                            20%{
+                                transform: rotateX(60deg) rotateY(180deg) translateY(100px);
+                        
+                            }
+                            100%{
+                                transform: translateY(-260px) translateX(calc(-260px * var(--i)));
+                                box-shadow: 0 0 30px #e3b93d62;
+                        
+                            }
+                        }
+                        @keyframes undraw{
+                            0%{
+                                transform: translateY(-250px) translateX(calc(-250px * var(--i)));
+                                box-shadow: 0 0 30px #e3b93d62;
+                            }
+                           90%,
+                           100%{
+                            transform: rotateX(60deg) rotateY(180deg);
+                        
+                           }
+                        }
+                        .card__box--deck img{
+                            width: 100%;
+                            height: 60%;
+                            object-fit: cover;
+                            object-position: center;
+                        }
+                        .card__box--deck .top-desk__content{
+                            height: 40%;
+                            padding: 0 15px;
+                        }
+                        .card__box--deck .top-desk__name{
+                            font-size: 24px;
+                            line-height: 1.2;
+                            margin-bottom: 5px;
+                            background: linear-gradient(to right, #ef32d9, #89fffd);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            font-weight: 700;
+                            text-align: center;
+                        }
+                        .top-desk__desc{
+                            font-size: 12px;
+                            display: -webkit-box;
+                            line-height: 1.3;
+                            -webkit-line-clamp: 4;  /* số dòng hiển thị */
+                            -webkit-box-orient: vertical;
+                            text-overflow: ellipsis;
+                        }
+                        .bottom-desk{
+                            pointer-events: none;
+                            z-index: -10;
+                        }
+                        .bottom-desk .top-side{
+                            transform: rotateX(60deg) rotateY(180deg);
+                            background: url(/img/Saint-League-of-Legends.jpeg) center / cover;
+                            width: 100%;
+                            border-radius: 10px;
+                            border: 5px solid #c9aa71;
+                        }
+                        .bottom-desk .thickness{
+                            width: 113%;
+                            height: 60px;
+                            top: 75%;
+                            background-color: #fddda7;
+                        }
+                        .bottom-desk .shadow{
+                            transform: rotateX(60deg) rotateY(180deg);
+                            margin-top: 70px;
+                            z-index: -20;
+                            border: none;
+                            background-color: #a4acdb20;
+                            filter: blur(15px);
+                        }
+                        .slider-2.slick-slide img {
+                            width: 810px;
+                            height: 460px;
+                           transition: all 0.4s ease-in-out;
+                        }
+                        .slick-center {
+                            z-index: 10;
+                            transform: scale(1.1);
+                        }
+                        button.slick-arrow{
+                            display: none !important
+                        }
+                        .slide-item--left img {
+                            display: none 
+                        }
+                        .game__img-1{
+                            background-image: url(/img/grn-1.jpg);
+                        }
+                        .game__img-2{
+                            background-image: url(/img/bg-grn-1-table.jpg);
+                          }
+                        .game__img-3{
+                            background-image: url('/img/grn-3-mb.jpg');
+                        }
+                        .game__img-4{
+                            background-image: url(/img/grn-4-mb.jpg);
+                        }
+                        .game__img-5{
+                            background-image: url(/img/grn-5-mb.jpg);
+                        }
+                        .game__img-6{
+                            background-image: url(/img/grn-6-mb.jpg);
+                        }
+                        .game__img-7{
+                            background-image: url(/img/grn-7-mb.jpg);
+                        }
+                        .card-box{
+                            background-image: url(/img/bg-card-mb.png);
+
+                        }
+                        .header__logo{
+                            margin: auto;
+                            padding: 16px 0px;
+                        }
+                        .hedaer__logo-img img{
+                            width: 180px;
+                        }
+                    }
+                    /* Table */
+                    
+                    @media (min-width:740px) and (max-width:1021px) {
+                        .slick-slide{
+                            min-height: 987px !important;
+                           
+                          }
+                          .slide-item__text{
+                            top: 45rem;
+                          }
+                          .card-box{
+                            min-height: 696px;
+                        }
+                        .card-box__icon img{
+                            width: 17.938rem;
+                            height:10.938rem;
+                        }
+                    }
+                        .career__right{
+                            height: auto;
+                            width: 706px;
+                        }
+                    /* moblie */
+                    @media (max-width:740px){
+                        .game__img-1{
+                           
+                            width: none !important
+                        }
+                        .slick-slide{
+                            min-height: 505px !important;
+                            max-height: 505px;
+                          }
+                        .header__logo img{
+                            width: 84px;
+                            height: 23px;
+                        }
+                        .list-slider:nth-child(1){
+                            background-position: -880px -5px;
+                        }
+                        .basic__box-right
+                        {
+                            padding: 20px !important;
+                            text-align: center;
+                          }
+                          .basic__box-header::before{
+                            content: "";
+                            background: url(/img/bacsic-header-icon.png);
+                            background-size: 100% 100%;
+                            top: 10%;
+                            position: absolute;
+                            width:5rem;
+                            height: 0.7rem;
+                            left: 17%;
+                          }
+                          .basic__box-header::after{
+                            content: "";
+                            background: url(/img/bacsic-header-icon-left.png);
+                            background-size: 100% 100%;
+                            top: 10%;
+                            position: absolute;
+                            width:5rem;
+                            height: 0.7rem;
+                            right: 12%;
+                          }
+                          .career__left{
+                            padding: 0px !important
+                          }
+                          .slick-dots button{
+                            width: 8px;
+                            height: 8px;
+                          }
+                          .slick-dots .slick-active button{
+                            padding: 0px 10px;
+                          }
+                          .card-box{
+                            min-height: 354px;
+                        }
+                        .career__right{
+                            background-image: url(/img/career-img-mb.jpg);
+                            height: 194px;
+                            width: 358px;
+                        }
+                    }
+                    
